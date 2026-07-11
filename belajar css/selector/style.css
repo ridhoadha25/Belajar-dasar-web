@@ -1,0 +1,33 @@
+body {
+    font-family: sans-serif;
+}
+
+h1, h2 { /* separator atau 1 properti brofing koma itu artinya dan*/
+    color: goldenrod;
+}
+
+ul li a {
+    color: green;
+}
+
+ol li a {
+    color: darkcyan;
+}
+
+#p1 { /* id gunakan tagar, cara baca css tolong carikan saya elemen p1*/
+    color: darkolivegreen;
+}
+
+.p2{ /* kalo pakai class gunakan titik di p2*/
+    color: royalblue;
+}
+
+p.cetak-tebal {
+    font-weight: bold;
+}
+
+/*id 
+> sebuah elemen html hanya memiliki 1 id
+> lalu 1 halaman hanya boleh memiliki 1 elemen dengan id tsb
+> id juga dpt digunkan untuk penanda untuk link
+> 

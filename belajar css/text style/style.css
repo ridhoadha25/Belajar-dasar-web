@@ -1,0 +1,37 @@
+/* Belajar mengenal text styling */
+/* color (memberi warna pada tulisan
+/* text-align (memberi format paragraf / teks
+/* text indent (memberi indentasi pada paragraf / teks bisa px %
+/* text-decoration (mengatur dekorasi pada teks
+/* text-transform (mengubah jenis huruf menjadi huruf besar / kapital
+
+/* letter-spacing (mengatur spasi antar huruf)
+/* word-spacing ( mengatur spasi antar kata)
+
+color 
+nama warna (red, lightseagreen, royalblue)
+hexadecimal ( #ff0000,)
+rgb (255, 0, 0)*/
+
+h1 {
+    font-size: 50px;
+    color: skyblue; /*menggunakan nama warna*/
+    text-transform: capitalize; /* text-transform ada none,lowercase,uppercase,capitalize
+}
+
+p {
+    font-size: 20px;
+    color: rgb(11,225,101); /*menggunakan rgb*/
+    text-align: justify;
+    letter-spacing: 5px; /*letter spacing*/
+}
+
+h3 {
+    font-size: 50px;
+    color: #00BFFF; /*menggunakan hexadecimal*/
+    text-indent: 100px;
+}
+
+p { /* text-decoration ada none,underline,overline,line-through*/
+    text-decoration: line-through;
+}

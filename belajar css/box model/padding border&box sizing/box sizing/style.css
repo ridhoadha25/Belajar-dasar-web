@@ -1,0 +1,17 @@
+div {
+    width: 600px;
+    margin: 10px auto; /* kasih jarak antar div*/
+
+}
+.satu {
+    background-color: yellow;
+    padding: 10px;
+    border: 5px solid green;
+}
+
+.dua {
+    background-color: teal;
+    padding: 30px;
+    border: 2px dashed lawngreen;
+    border-radius: 15px;
+}
